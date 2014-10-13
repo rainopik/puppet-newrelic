@@ -1,0 +1,15 @@
+{
+  "name": "fsalum-newrelic",
+  "version": "4.0.1-r1",
+  "author": "Felipe Salum",
+  "summary": "Puppet module for NewRelic",
+  "license": "Apache License, Version 2.0",
+  "source": "git://github.com/fsalum/puppet-newrelic.git",
+  "project_page": "https://github.com/fsalum/puppet-newrelic",
+  "issues_url": "https://github.com/fsalum/puppet-newrelic/issues",
+  "description": "Module to install and configure New Relic server monitoring and New Relic PHP Agent",
+  "dependencies": [
+    {"name":"puppetlabs/apt","version_requirement":">= 1.5.0"},
+    {"name":"puppetlabs/stdlib","version_requirement":">= 4.1.0"}
+  ]
+}
